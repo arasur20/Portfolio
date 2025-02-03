@@ -7,6 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import sql from './tech/sql.png'
+import java from "./tech/java.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -29,8 +31,20 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import ems from "./ems.png";
+import apg from "./apg.png";
+import recipe from "./recipe.png";
+import rps from "./rps.png";
+import yut from "./yut.png";
 
 export {
+  yut,
+  recipe,
+  rps,
+  apg,
+  ems,
+  java,
+  sql,
   logo,
   backend,
   creator,

@@ -1,5 +1,12 @@
+import { title } from "framer-motion/client";
 import {
+    recipe,
+    yut,
+    rps,
+    apg,
+    ems,
     mobile,
+    sql,
     backend,
     creator,
     web,
@@ -23,6 +30,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    java,
   } from "../assets";
   
   export const navLinks = [
@@ -42,24 +50,29 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Frontend Developer",
+      icon: javascript,
     },
     {
       title: "Backend Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "React.js Developer",
+      icon: reactjs,
     },
+    {
+      title: "SQL Developer",
+      icon: sql,
+    },
+    
   ];
   
   const technologies = [
+    {
+      name:"Java",
+      icon: java
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -73,28 +86,16 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name:"Oracle SQL",
+      icon: sql
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -108,24 +109,19 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "Full Stack Developer Intern",
+      title: "Fullstack Developer Intern",
       company_name: "Besant Technologies",
-      icon: starbucks,
+      icon: web,
       iconBg: "#383E56",
-      date: "Jul 2024 - Dec 2021",
+      date: "Jul 2024 - Dec 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed to the development of scalable frontend and backend architectures for web applications.",
+        "Designed and implemented dynamic, responsive, and user-focused interfaces using HTML, CSS, JavaScript, and React JS.",
+        "Developed robust backend systems and RESTful APIs utilizing Java, Spring Boot, and MySQL, adhering to best practices for security and scalability.",
       ],
     },
   ];
@@ -159,30 +155,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Amazon Product Grid",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An e-commerce web application where users can browse products, add items to their cart, and manage orders. It features functionalities like viewing product details, updating cart quantities, selecting delivery options, and processing payments.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: apg,
+      source_code_link: "https://github.com/arasu-20/Amazon_Project",
     },
     {
-      name: "Job IT",
+      name: "Employment Management System",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The Employee Management System is a web app that lets users manage employee data by adding, updating, viewing, and deleting records. ",
       tags: [
         {
           name: "react",
@@ -193,33 +189,62 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "java",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: ems,
+      source_code_link: "https://github.com/arasu-20/Employee-Management-System-Frontend",
     },
     {
-      name: "Trip Guide",
+      name: "Recipes Book",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A recipe book which fetches data from API and showcases each recipe with Ingredients and Instructions to the users.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: recipe,
+      source_code_link: "https://github.com/arasu-20/RecipeAppBook",
+    },
+    {
+      name: "RockPaperScissor",
+      description:
+        "A simple Rock Paper Scissor game, where user can choose a move for that computer makes move in random of three. Where user can see scores",
+      tags: [
+        {
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "css",
           color: "green-text-gradient",
         },
         {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: rps,
+      source_code_link: "https://github.com/arasu-20/RockPaperScissor",
+    },
+    {
+      name: "Youtube UI",
+      description:
+        "A youtube model that shows the exact model of youtube which all created by using only HTML and CSS",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },{
           name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: yut,
+      source_code_link: "https://github.com/arasu-20/youtube",
     },
   ];
   
