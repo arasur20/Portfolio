@@ -36,8 +36,10 @@ import apg from "./apg.png";
 import recipe from "./recipe.png";
 import rps from "./rps.png";
 import yut from "./yut.png";
+import appleWeb from "./appleWeb.png"
 
 export {
+  appleWeb,
   yut,
   recipe,
   rps,

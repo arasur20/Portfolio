@@ -1,5 +1,6 @@
 import { title } from "framer-motion/client";
 import {
+  appleWeb,
     recipe,
     yut,
     rps,
@@ -126,32 +127,7 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+  
   
   const projects = [
     {
@@ -181,15 +157,15 @@ import {
         "The Employee Management System is a web app that lets users manage employee data by adding, updating, viewing, and deleting records. ",
       tags: [
         {
-          name: "react",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "RESTapi",
           color: "green-text-gradient",
         },
         {
-          name: "java",
+          name: "JAVA",
           color: "pink-text-gradient",
         },
       ],
@@ -202,7 +178,7 @@ import {
         "A recipe book which fetches data from API and showcases each recipe with Ingredients and Instructions to the users.",
       tags: [
         {
-          name: "reactjs",
+          name: "ReactJS",
           color: "blue-text-gradient",
         },
       ],
@@ -210,20 +186,40 @@ import {
       source_code_link: "https://github.com/arasu-20/RecipeAppBook",
     },
     {
+      name: "Apple iPhone Web",
+      description:
+        "A Website which mirrors the Apple's signature aesthetics using ReactJS, ThreeJS and GSAP to learn and upskill my knowledge towards those technologies",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },{
+          name: "ThreeJS",
+          color: "pink-text-gradient",
+        },
+        {
+          name:"GSAP",
+          color:"green-text-gradient"
+        }
+      ],
+      image: appleWeb,
+      source_code_link: "https://github.com/arasu-20/apple_web",
+    },
+    {
       name: "RockPaperScissor",
       description:
         "A simple Rock Paper Scissor game, where user can choose a move for that computer makes move in random of three. Where user can see scores",
       tags: [
         {
-          name: "html",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "javascript",
+          name: "JavaScript",
           color: "pink-text-gradient",
         },
       ],
@@ -236,10 +232,10 @@ import {
         "A youtube model that shows the exact model of youtube which all created by using only HTML and CSS",
       tags: [
         {
-          name: "html",
+          name: "HTML",
           color: "blue-text-gradient",
         },{
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
@@ -248,4 +244,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
