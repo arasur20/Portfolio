@@ -32,6 +32,7 @@ import {
     tripguide,
     threejs,
     java,
+    uber,
   } from "../assets";
   
   export const navLinks = [
@@ -149,7 +150,7 @@ import {
         },
       ],
       image: apg,
-      source_code_link: "https://github.com/arasu-20/Amazon_Project",
+      source_code_link: "https://github.com/arasur20/Amazon_Project",
     },
     {
       name: "Employment Management System",
@@ -170,7 +171,7 @@ import {
         },
       ],
       image: ems,
-      source_code_link: "https://github.com/arasu-20/Employee-Management-System-Frontend",
+      source_code_link: "https://github.com/arasur20/Employee-Management-System-Frontend",
     },
     {
       name: "Recipes Book",
@@ -183,7 +184,7 @@ import {
         },
       ],
       image: recipe,
-      source_code_link: "https://github.com/arasu-20/RecipeAppBook",
+      source_code_link: "https://github.com/arasur20/RecipeAppBook",
     },
     {
       name: "Apple iPhone Web",
@@ -203,7 +204,7 @@ import {
         }
       ],
       image: appleWeb,
-      source_code_link: "https://github.com/arasu-20/apple_web",
+      source_code_link: "https://github.com/arasur20/apple_web",
     },
     {
       name: "RockPaperScissor",
@@ -224,7 +225,7 @@ import {
         },
       ],
       image: rps,
-      source_code_link: "https://github.com/arasu-20/RockPaperScissor",
+      source_code_link: "https://github.com/arasur20/RockPaperScissor",
     },
     {
       name: "Youtube UI",
@@ -240,7 +241,31 @@ import {
         },
       ],
       image: yut,
-      source_code_link: "https://github.com/arasu-20/youtube",
+      source_code_link: "https://github.com/arasur20/youtube",
+    },
+    {
+      name: "Uber clone",
+      description:
+        "The Uber Clone is a full-fledged ride-hailing application built using React Native and Expo, designed to replicate the core functionalities of Uber. The app offers a seamless user experience, allowing customers to book rides, view real-time driver locations, and make secure payments. It also includes an admin interface for managing drivers, users, and ride details.",
+      tags: [
+        {
+          name: "React Native",
+          color: "blue-text-gradient",
+        },{
+          name: "TypeScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "PostgresSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Stripe",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: uber,
+      source_code_link: "https://github.com/arasur20/Uber",
     },
   ];
   

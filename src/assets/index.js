@@ -37,8 +37,9 @@ import recipe from "./recipe.png";
 import rps from "./rps.png";
 import yut from "./yut.png";
 import appleWeb from "./appleWeb.png"
-
+import uber from "./uber.png"
 export {
+  uber,
   appleWeb,
   yut,
   recipe,
