@@ -7,8 +7,8 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import sql from './tech/sql.png'
-import java from "./tech/java.png"
+import sql from "./tech/sql.png";
+import java from "./tech/java.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -36,8 +36,8 @@ import apg from "./apg.png";
 import recipe from "./recipe.png";
 import rps from "./rps.png";
 import yut from "./yut.png";
-import appleWeb from "./appleWeb.png"
-import uber from "./uber.png"
+import appleWeb from "./appleWeb.png";
+import uber from "./uber.jpg";
 export {
   uber,
   appleWeb,
