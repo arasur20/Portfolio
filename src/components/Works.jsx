@@ -17,14 +17,10 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="w-full sm:w-[300px]" // responsive card width
+      className="w-full"
     >
       <Tilt
-        options={{
-          max: 25,
-          scale: 1,
-          speed: 400,
-        }}
+        options={{ max: 25, scale: 1, speed: 400 }}
         className="bg-tertiary p-5 rounded-2xl w-full"
       >
         {/* Image */}
@@ -96,8 +92,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      {/* Project Cards */}
-      <div className="mt-10 sm:mt-20 flex flex-wrap justify-center gap-6 sm:gap-7">
+      <div className="mt-10 sm:mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index} />
         ))}
