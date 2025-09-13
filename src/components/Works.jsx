@@ -5,6 +5,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { p } from "framer-motion/client";
 
 const ProjectCard = ({
   index,
@@ -15,16 +16,16 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div
-      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-      className="w-full"
-    >
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
-        options={{ max: 25, scale: 1, speed: 400 }}
-        className="bg-tertiary p-5 rounded-2xl w-full"
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full"
       >
-        {/* Image */}
-        <div className="relative w-full h-[180px] sm:h-[230px]">
+        <div className="relative w-full h-[230px]">
           <img
             src={image}
             alt={name}
@@ -32,8 +33,8 @@ const ProjectCard = ({
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-9 h-9 sm:w-10 sm:h-10 rounded-full flex justify-center items-center cursor-pointer"
+              onClick={() => window.open(source_code_link, "blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
                 src={github}
@@ -43,24 +44,13 @@ const ProjectCard = ({
             </div>
           </div>
         </div>
-
-        {/* Title + Description */}
-        <div className="mt-4">
-          <h3 className="text-white font-bold text-[20px] sm:text-[24px]">
-            {name}
-          </h3>
-          <p className="text-secondary text-[13px] sm:text-[14px] mt-1">
-            {description}
-          </p>
+        <div className="mt-5">
+          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <p className="text-secondary text-[14px]">{description}</p>
         </div>
-
-        {/* Tags */}
-        <div className="mt-3 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p
-              key={tag.name}
-              className={`text-[12px] sm:text-[14px] ${tag.color}`}
-            >
+        <div className="mt-4 flex flex-wrap gap-2">
+          {tags.map((tag, index) => (
+            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}
             </p>
           ))}
@@ -73,26 +63,25 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      {/* Heading */}
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>MY WORKS</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
 
-      {/* Intro text */}
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[14px] sm:text-[17px] leading-[24px] sm:leading-[30px] max-w-3xl"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Following projects showcase my skills and experience through
-          real-world examples. Each project is briefly described with a link to
-          the repository, reflecting my ability to solve complex problems, work
-          with different technologies, and manage projects effectively.
+          Following projects showcases my skills and experience through
+          real-world examples of my work. Each project is briefly described with
+          links to code repository. It reflect my ability to solve complex
+          problem, work with different technologies, and manage projects
+          effectively.
         </motion.p>
       </div>
 
-      <div className="mt-10 sm:mt-20 grid grid-cols-1 lg:grid-cols-3 gap-7">
+      <div className="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} {...project} index={index} />
         ))}

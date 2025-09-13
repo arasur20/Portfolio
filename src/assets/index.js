@@ -38,7 +38,13 @@ import rps from "./rps.png";
 import yut from "./yut.png";
 import appleWeb from "./appleWeb.png";
 import uber from "./uber.jpg";
+import stripe from "./stripesignin.png";
+import mojitoanimation from "./mojito.png";
+import zentry from "./zentry.png";
 export {
+  mojitoanimation,
+  zentry,
+  stripe,
   uber,
   appleWeb,
   yut,
