@@ -41,6 +41,7 @@ import uber from "./uber.jpg";
 import stripe from "./stripesignin.png";
 import mojitoanimation from "./mojito.png";
 import zentry from "./zentry.png";
+import wipro from "./wipro.png";
 export {
   mojitoanimation,
   zentry,
@@ -82,4 +83,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  wipro,
 };

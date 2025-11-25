@@ -36,6 +36,7 @@ import {
   threejs,
   java,
   uber,
+  wipro,
 } from "../assets";
 
 export const navLinks = [
@@ -126,6 +127,18 @@ const experiences = [
       "Contributed to the development of scalable frontend and backend architectures for web applications.",
       "Designed and implemented dynamic, responsive, and user-focused interfaces using HTML, CSS, JavaScript, and React JS.",
       "Developed robust backend systems and RESTful APIs utilizing Java, Spring Boot, and MySQL, adhering to best practices for security and scalability.",
+    ],
+  },
+  {
+    title: "Project Engineer Trainee",
+    company_name: "Wipro",
+    icon: wipro,
+    iconBg: "#383E56",
+    date: "Oct 2025 - Present",
+    points: [
+      "Worked on the Employee Wellness Management System using the MEAN stack, building both the frontend in Angular and the backend with Node.js and Express.",
+      "Created REST APIs and managed data in MongoDB to handle employee wellness activities, health records, and user information.",
+      "Improved the app’s usability and security by adding responsive UI screens and implementing login authentication with JWT.",
     ],
   },
 ];
