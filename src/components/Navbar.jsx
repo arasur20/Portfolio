@@ -22,14 +22,12 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img
-            src={mylogo}
-            alt="logo"
-            className="w-9 h-9 object-cover"
-          />
+          <img src={mylogo} alt="logo" className="w-9 h-9 object-cover" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Arasu &nbsp;
-            <span className="sm:block hidden ">| Fullstack Web Developer</span>
+            <span className="sm:block hidden ">
+              | Mobile & Fullstack Web Developer
+            </span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

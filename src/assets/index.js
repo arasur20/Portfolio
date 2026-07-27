@@ -42,7 +42,9 @@ import stripe from "./stripesignin.png";
 import mojitoanimation from "./mojito.png";
 import zentry from "./zentry.png";
 import wipro from "./wipro.png";
+import bigThink from "./bigthink.png";
 export {
+  bigThink,
   mojitoanimation,
   zentry,
   stripe,

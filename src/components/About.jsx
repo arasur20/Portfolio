@@ -40,7 +40,7 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary max-w-4xl leading-[30px]"
       >
         I'm a passionate and enthusiastic software developer eager to create
         efficient, scalable and user-friendly solutions that solve real world
@@ -50,11 +50,11 @@ const About = () => {
         projects that make an impact. Let's work together to bring your ideas to
         life!
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

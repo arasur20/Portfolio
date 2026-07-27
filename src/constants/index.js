@@ -1,4 +1,3 @@
-import { title } from "framer-motion/client";
 import {
   zentry,
   mojitoanimation,
@@ -25,18 +24,11 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   java,
   uber,
   wipro,
+  bigThink,
 } from "../assets";
 
 export const navLinks = [
@@ -118,6 +110,30 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Mobile Application Developer",
+    company_name: "BigThinkCode",
+    icon: bigThink,
+    iconBg: "#383E56",
+    date: "Mar 2026 - Present",
+    points: [
+      "Upgraded React Native versions for an existing production-level mobile application, ensuring compatibility, stability, and seamless migration across framework updates.",
+      "Refactored the application by removing deprecated and unnecessary packages, reducing dependency overhead and improving overall maintainability.",
+      "Implemented modular API architecture and optimized the project structure and performance, improving code reusability, scalability, and application efficiency.",
+    ],
+  },
+  {
+    title: "Project Engineer Trainee",
+    company_name: "Wipro",
+    icon: wipro,
+    iconBg: "#383E56",
+    date: "Oct 2025 - Dec 2025",
+    points: [
+      "Worked on the Employee Wellness Management System using the MEAN stack, building both the frontend in Angular and the backend with Node.js and Express.",
+      "Created REST APIs and managed data in MongoDB to handle employee wellness activities, health records, and user information.",
+      "Improved the app’s usability and security by adding responsive UI screens and implementing login authentication with JWT.",
+    ],
+  },
+  {
     title: "Fullstack Developer Intern",
     company_name: "Besant Technologies",
     icon: web,
@@ -127,18 +143,6 @@ const experiences = [
       "Contributed to the development of scalable frontend and backend architectures for web applications.",
       "Designed and implemented dynamic, responsive, and user-focused interfaces using HTML, CSS, JavaScript, and React JS.",
       "Developed robust backend systems and RESTful APIs utilizing Java, Spring Boot, and MySQL, adhering to best practices for security and scalability.",
-    ],
-  },
-  {
-    title: "Project Engineer Trainee",
-    company_name: "Wipro",
-    icon: wipro,
-    iconBg: "#383E56",
-    date: "Oct 2025 - Present",
-    points: [
-      "Worked on the Employee Wellness Management System using the MEAN stack, building both the frontend in Angular and the backend with Node.js and Express.",
-      "Created REST APIs and managed data in MongoDB to handle employee wellness activities, health records, and user information.",
-      "Improved the app’s usability and security by adding responsive UI screens and implementing login authentication with JWT.",
     ],
   },
 ];
@@ -213,23 +217,6 @@ const projects = [
       "https://github.com/arasur20/Employee-Management-System-Frontend",
   },
   {
-    name: "Zentry Replica",
-    description:
-      "The project focuses on delivering smooth animations, transitions, and interactive UI effects to replicate the original design and user experience of Zentry. It showcases responsive layouts, modern styling, and advanced animation techniques to create a visually engaging and dynamic website.",
-    tags: [
-      {
-        name: "ReactJS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "GSAP",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: zentry,
-    source_code_link: "https://github.com/arasur20/Zentry",
-  },
-  {
     name: "Mojito Web Animation",
     description:
       "The project highlights creative motion design with smooth transitions, scroll-based effects, and interactive elements. It focuses on providing a fun, engaging, and visually appealing experience by combining modern web technologies with advanced animation techniques.",
@@ -246,6 +233,24 @@ const projects = [
     image: mojitoanimation,
     source_code_link: "https://github.com/arasur20/mojitoanimation",
   },
+  {
+    name: "Zentry Replica",
+    description:
+      "The project focuses on delivering smooth animations, transitions, and interactive UI effects to replicate the original design and user experience of Zentry. It showcases responsive layouts, modern styling, and advanced animation techniques to create a visually engaging and dynamic website.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GSAP",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zentry,
+    source_code_link: "https://github.com/arasur20/Zentry",
+  },
+
   {
     name: "Apple iPhone Web",
     description:
@@ -289,6 +294,19 @@ const projects = [
     source_code_link: "https://github.com/arasur20/RockPaperScissor",
   },
   {
+    name: "Recipes Book",
+    description:
+      "A recipe book which fetches data from API and showcases each recipe with Ingredients and Instructions to the users.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: recipe,
+    source_code_link: "https://github.com/arasur20/RecipeAppBook",
+  },
+  {
     name: "Youtube UI",
     description:
       "A youtube model that shows the exact model of youtube which all created by using only HTML and CSS",
@@ -304,19 +322,6 @@ const projects = [
     ],
     image: yut,
     source_code_link: "https://github.com/arasur20/youtube",
-  },
-  {
-    name: "Recipes Book",
-    description:
-      "A recipe book which fetches data from API and showcases each recipe with Ingredients and Instructions to the users.",
-    tags: [
-      {
-        name: "ReactJS",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: recipe,
-    source_code_link: "https://github.com/arasur20/RecipeAppBook",
   },
 ];
 
