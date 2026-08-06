@@ -42,13 +42,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary max-w-4xl leading-[30px]"
       >
-        I'm a passionate and enthusiastic software developer eager to create
-        efficient, scalable and user-friendly solutions that solve real world
-        problems. I specialize in Java, HTML, CSS, JavaScript and MySQL, and
-        expertise in framework like React.js, Spring Boot and GSAP. My goal is
-        to continuously learn and grow in the field of technology while building
-        projects that make an impact. Let's work together to bring your ideas to
-        life!
+        I'm currently working as a Mobile Application Developer, passionate about building high-quality, user-friendly, and scalable mobile applications. I enjoy learning new technologies and continuously improving my skills to create impactful digital experiences. My expertise includes React Native, React.js, JavaScript, HTML, CSS, MySQL, and GSAP, with a strong interest in both mobile and web development. My goal is to keep growing as a developer while contributing to innovative projects that solve real-world problems.
       </motion.p>
       {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
